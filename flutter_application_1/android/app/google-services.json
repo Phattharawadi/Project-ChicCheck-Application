@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "5025438358",
+    "project_id": "chiccheckapplication",
+    "storage_bucket": "chiccheckapplication.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5025438358:android:dad9f45d0476e3dcf400b7",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "5025438358-a5jjq0vgu3m1a02auhhjtbto4ss8n1eh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8CtXfTsA2z-Vh5RmeTp1y2H0CfGSe8sc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "5025438358-a5jjq0vgu3m1a02auhhjtbto4ss8n1eh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
