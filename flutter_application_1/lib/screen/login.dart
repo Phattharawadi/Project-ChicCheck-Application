@@ -3,7 +3,8 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/model/profile.dart';
 import 'package:flutter_application_1/screen/signUp.dart';
-import 'package:flutter_application_1/screen/welcome.dart';
+import 'package:flutter_application_1/screen/profile_screen.dart';
+import 'package:flutter_application_1/screen/skintype.dart';
 
 bool isValidEmail(String email) {
   final RegExp regex = RegExp(
@@ -40,7 +41,7 @@ class _LoginScreenState extends State<LoginScreen> {
         if (snapshot.connectionState == ConnectionState.done) {
           return Scaffold(
             appBar: AppBar(
-              backgroundColor: Colors.white,
+              backgroundColor: const Color.fromARGB(255, 193, 94, 130),
               elevation: 0,
               leading: IconButton(
                 icon: Icon(Icons.arrow_back, color: Colors.black),
@@ -69,7 +70,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         "Sign in to your account",
                         style: TextStyle(
                             fontSize: 22,
-                            color: Color.fromARGB(255, 246, 142, 196)),
+                            color: Color.fromARGB(255, 147, 17, 77)),
                         textAlign: TextAlign.center,
                       ),
                       const SizedBox(height: 32),
@@ -168,7 +169,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                     Navigator.pushReplacement(
                                       context,
                                       MaterialPageRoute(
-                                        builder: (context) => ProfileScreen(),
+                                        builder: (context) => SkinTypeQuizScreen(),
                                       ),
                                     );
                                   } on FirebaseAuthException catch (e) {

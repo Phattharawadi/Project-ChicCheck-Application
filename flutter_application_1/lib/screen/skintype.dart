@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/screen/quizcomplete.dart';
+import 'package:flutter_application_1/screen/product.dart';
 
 void main() => runApp(MyApp());
 
@@ -274,7 +274,7 @@ class _SkinTypeQuizScreenState extends State<SkinTypeQuizScreen> {
     // Implement your logic for when the quiz is finished, for example:
     Navigator.push(
       context,
-      MaterialPageRoute(builder: (context) => QuizResultScreen()),
+      MaterialPageRoute(builder: (context) => ProductScreen()),
     );
   }
 }

@@ -39,6 +39,12 @@ dependencies:
   flutter_styled_toast: ^2.2.1
   image_picker: ^1.1.2
   google_sign_in: ^6.2.2
+  http: ^0.13.5
+  cached_network_image: ^3.2.3
+  provider: ^6.0.5  # เพิ่ม package provider
+  shared_preferences: ^2.2.0
+  firebase_storage: ^12.4.4
+  cloud_firestore: ^5.6.5
   
 dev_dependencies:
   flutter_test:
